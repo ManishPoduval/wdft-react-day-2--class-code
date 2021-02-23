@@ -4,6 +4,7 @@ import StudentDetails from './StudentDetails'
 
 class Students extends Component {
 
+    // we are grabbing just the first 5 elements from the json array
     state = {
         students: studentsJson.slice(0,5)
     }
